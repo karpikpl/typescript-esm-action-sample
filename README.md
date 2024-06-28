@@ -204,7 +204,7 @@ steps:
 
   - name: Print Output
     id: output
-    run: echo "${{ steps.test-action.outputs.time }}"
+    run: echo "${{ steps.test-action.outputs.time }}"!
 ```
 
 ## Publishing a New Release
